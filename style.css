@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #4a90e2;
+}
+
+label, p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #2a76ca;
+    outline: none;
+}
+
+/* Button Styles */
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #285a8b;
+    transform: scale(1);
+}
+
+/* Result Output */
+output {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eef3f9;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: fit-content;
+}
+
+/* Container Styles */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
